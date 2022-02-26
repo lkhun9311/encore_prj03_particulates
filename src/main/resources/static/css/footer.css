@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+.foot {
+	text-align: left;
+	margin-left: 14%;
+	height: 10%;
+    position: relative;
+    bottom: 10%;
+}

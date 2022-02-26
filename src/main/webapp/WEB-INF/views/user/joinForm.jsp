@@ -2,7 +2,7 @@
 
 <%@ include file="../layout/header.jsp"%>
 
-<div class="container">
+<div class="container joinform">
 	<form>
 		<div class="form-group">
 			<label for="username">Username</label> 
@@ -20,7 +20,7 @@
 		</div>
 		
 	</form>
-	<button id="btn-save" class="btn btn-primary">회원가입완료</button>
+	<button id="btn-save" class="btn btn-primary">회원가입</button>
 
 </div>
 

@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+.loginform {
+	margin: 70px 0 170px 0;
+	width: 30%;
+	color: white;
+}
+
+#btn-login{
+	width:100%
+}

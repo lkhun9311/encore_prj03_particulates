@@ -2,7 +2,7 @@
 
 <%@ include file="../layout/header.jsp"%>
 
-<div class="container">
+<div class="container colorsetting">
 
 	<form>
 		<input type="hidden" id="id" value="${board.id}"/>

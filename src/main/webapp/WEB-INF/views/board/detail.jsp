@@ -2,7 +2,7 @@
 
 <%@ include file="../layout/header.jsp"%>
 
-<div class="container">
+<div class="container colorsetting">
 	<button class="btn btn-secondary" onclick="history.back()">돌아가기</button>
 
 	<c:if test="${board.user.id == principal.user.id}">

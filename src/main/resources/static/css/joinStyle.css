@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+.joinform {
+	margin: 70px 0 85px 0;
+	width: 30%;
+	color: white;
+}
+
+#btn-save{
+	width:100%
+}

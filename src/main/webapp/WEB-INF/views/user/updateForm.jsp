@@ -2,7 +2,7 @@
 
 <%@ include file="../layout/header.jsp"%>
 
-<div class="container">
+<div class="container updateform">
 	<form>
 		<input type="hidden" id="id" value="${principal.user.id}" />
 		<div class="form-group">
@@ -23,7 +23,7 @@
 		</div>
 		
 	</form>
-	<button id="btn-update" class="btn btn-primary">회원수정완료</button>
+	<button id="btn-update" class="btn btn-primary">회원정보 수정</button>
 
 </div>
 
