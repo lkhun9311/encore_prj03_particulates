@@ -26,7 +26,6 @@
 <link rel="stylesheet" type="text/css" href="/css/joinStyle.css">
 <link rel="stylesheet" type="text/css" href="/css/updateStyle.css">
 <link rel="stylesheet" type="text/css" href="/css/detailStyle.css">
-<link rel="stylesheet" type="text/css" href="/css/saveStyle.css">
 <link rel="stylesheet" type="text/css" href="/css/footer.css">
 
 </head>
@@ -43,6 +42,13 @@
 					<ul class="navbar-nav">
 						<li class="nav-item"><a class="nav-link" href="/auth/loginForm">로그인</a></li>
 						<li class="nav-item"><a class="nav-link" href="/auth/joinForm">회원가입</a></li>
+					</ul>
+				</c:when>
+				<c:when test="${principal.user.role eq 'ADMIN'}">
+					<ul class="navbar-nav">
+						<li class="nav-item"><a class="nav-link" href="/board/saveForm">데이터 입력</a></li>
+						<li class="nav-item"><a class="nav-link" href="/user/updateForm">회원정보</a></li>
+						<li class="nav-item"><a class="nav-link" href="/logout">로그아웃</a></li>
 					</ul>
 				</c:when>
 				<c:otherwise>

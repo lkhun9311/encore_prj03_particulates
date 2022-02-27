@@ -45,6 +45,20 @@ body {
 	z-index: -1;
 }
 
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 0.25rem;
+}
+.card-title {
+  margin-bottom: 0;
+}
+
+#button1 {
+	float: right;
+}
+
 #collapsibleNavbar {
 	text-align: right;
 }

@@ -5,10 +5,11 @@
 <div class="container">
 
 	<c:forEach var="board" items="${boards.content}">
-		<div class="card m-2">
+		<div class="card m-1">
 			<div class="card-body">
-				<h4 class="card-title">${board.title}</h4>
-				<a href="/board/${board.id}" class="btn btn-primary">상세보기</a>
+				<h4 class="card-title">${board.title}
+					<a href="/board/${board.id}" class="btn btn-primary" id="button1">선택</a>
+				</h4>
 			</div>
 		</div>
 	</c:forEach>
