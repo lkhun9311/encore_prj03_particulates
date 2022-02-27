@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.playdata.config.auth.PrincipalDetail;
@@ -35,9 +37,6 @@ public class BoardApiController {
 	
 	@PutMapping("/api/board/{id}")
 	public ResponseDto<Integer> update(@PathVariable int id, @RequestBody Board board){
-		System.out.println("BoardApiController : update : id : "+id);
-		System.out.println("BoardApiController : update : board : "+board.getTitle());
-		System.out.println("BoardApiController : update : board : "+board.getContent());
 		boardService.boardUpdate(id, board);
 		return new ResponseDto<Integer>(HttpStatus.OK.value(), 1);
 	}
