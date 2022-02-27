@@ -3,18 +3,18 @@
 <%@ include file="../layout/header.jsp"%>
 
 <div class="container">
-	<button class="btn btn-secondary" onclick="history.back()">돌아가기</button>
+	<button class="btn btn-primary" onclick="history.back()">돌아가기</button>
 	<c:if test="${board.user.id == principal.user.id}">
-		<a href="/board/${board.id}/updateForm" class="btn btn-warning">수정</a>
-		<button id="btn-delete" class="btn btn-danger">삭제</button>
+		<a href="/board/${board.id}/updateForm" class="btn btn-primary">수정</a>
+		<button id="btn-delete" class="btn btn-primary">삭제</button>
 	</c:if>
 	<br/> <br/>
 	<div>
-		<span id="id" style="display:none"><i>${board.id} </i></span> 작성일 : <span><i>${board.createDate} </i></span>
+		<span id="id" style="display: none"><i>${board.id} </i></span> 작성일 : <span><i>${board.createDate} </i></span>
 	</div>
 	<br/>
 	<div>
-		<h3>${board.title}</h3>
+		<h4 style="text-align: center">${board.title}</h4>
 	</div>
 	<hr/>
 	<div>

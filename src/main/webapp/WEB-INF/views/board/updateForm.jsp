@@ -14,7 +14,7 @@
 			<textarea class="form-control summernote" rows="5" id="content">${board.content}</textarea>
 		</div>
 	</form>
-	<button id="btn-update" class="btn btn-primary">글수정완료</button>
+	<button id="btn-update" class="btn btn-primary">수정</button>
 </div>
 
 <script>

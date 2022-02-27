@@ -7,9 +7,9 @@
 	<c:forEach var="board" items="${boards.content}">
 		<div class="card m-1">
 			<div class="card-body">
-				<h4 class="card-title">${board.title}
+				<h5 class="card-title">${board.title}
 					<a href="/board/${board.id}" class="btn btn-primary" id="button1">선택</a>
-				</h4>
+				</h5>
 			</div>
 		</div>
 	</c:forEach>
