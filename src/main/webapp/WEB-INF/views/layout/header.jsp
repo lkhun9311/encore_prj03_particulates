@@ -26,6 +26,7 @@
 <link rel="stylesheet" type="text/css" href="/css/joinStyle.css">
 <link rel="stylesheet" type="text/css" href="/css/updateStyle.css">
 <link rel="stylesheet" type="text/css" href="/css/detailStyle.css">
+<link rel="stylesheet" type="text/css" href="/css/board.css">
 <link rel="stylesheet" type="text/css" href="/css/footer.css">
 
 </head>
